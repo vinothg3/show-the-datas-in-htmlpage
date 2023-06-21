@@ -1,0 +1,15 @@
+h1
+{
+    background-color: aqua;
+    color: red;
+}
+#th1
+{
+    background-color: blue;
+}
+#th1>th
+{
+    background-color: blueviolet;
+    color: rgb(218, 33, 33);
+    padding: 10px;
+}

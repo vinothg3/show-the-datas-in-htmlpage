@@ -1,0 +1,53 @@
+body
+{
+    background-color: rgb(196, 235, 222);
+}
+h1
+{
+    background-color: rgb(153, 0, 255);
+    color: rgb(0, 255, 221);
+    padding: 10px;
+}
+table
+{
+    background-color: black;
+    border: 2px solid brown;
+}
+#th1
+{
+    background-color: blue;
+}
+#th1>th
+{
+    background-color: blueviolet;
+    color: rgb(33, 218, 104);
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 26px;
+}
+#td>td
+{
+    background-color: blue;
+    color: yellow;
+    padding: 10px;
+    font-size: 26px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+
+#c1:hover
+{
+    background-color: aqua;
+    color: rgb(13, 16, 190);
+}
+#c2:hover
+{
+    background-color: black;
+    color: white;
+}
+#c3:hover
+{
+    background-color: beige;
+    color: black;
+}

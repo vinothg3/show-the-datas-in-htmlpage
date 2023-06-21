@@ -1,0 +1,36 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/empstyle.css' %}">
+    <style></style>
+</head>
+<body>
+    <center>
+        <h1 id="emp">This Is a EMPLOYE Table</h1>
+        <table border="1px">
+            <tr id="h">
+                <th>Emp no</th>
+                <th>Ename</th>
+                <th>Job</th>
+                <th>MGR</th>
+                <th>Hire Date</th>
+                <th>Sal </th>
+                <th>Dept no</th>
+            </tr>
+            {% for oe in emp %}
+            <tr id="d">
+                <td id="d1">{{oe.Emp_no}}</td>
+                <td id="d2">{{oe.Ename}}</td>
+                <td id="d3">{{oe.Job}}</td>
+                <td id="d4">{{oe.MGR}}</td>
+                <td id="d5">{{oe.Hire_date}}</td>
+                <td id="d6">{{oe.Sal}}</td>
+                <td id="d7">{{oe.Dept_no.Dept_no}}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </center>
+</body>
+</html>
